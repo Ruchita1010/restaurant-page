@@ -146,7 +146,27 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ \"./src/styles/main.css\");\n/* harmony import */ var _modules_page_load__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/page-load */ \"./src/modules/page-load.js\");\n\r\n\r\n\r\n(0,_modules_page_load__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ \"./src/styles/main.css\");\n/* harmony import */ var _modules_page_load__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/page-load */ \"./src/modules/page-load.js\");\n/* harmony import */ var _modules_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/menu */ \"./src/modules/menu.js\");\n/* harmony import */ var _modules_about__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/about */ \"./src/modules/about.js\");\n\r\n\r\n\r\n\r\n\r\n// load the initial contents of the page\r\n(0,_modules_page_load__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\r\n\r\n// tab switching logic\r\nconst switchTab = (e) => {\r\n    const currentTab = e.target.innerText;\r\n    switch (currentTab) {\r\n        case \"Home\":\r\n            window.location.reload();\r\n            break;\r\n        case \"Menu\":\r\n            (0,_modules_menu__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\r\n            break;\r\n        case \"About\":\r\n            (0,_modules_about__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\r\n            break;\r\n    }\r\n}\r\n\r\nconst navTabs = document.querySelectorAll(\".list-item\");\r\nnavTabs.forEach((navTab) => {\r\n    navTab.addEventListener(\"click\", switchTab);\r\n});\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/about.js":
+/*!******************************!*\
+  !*** ./src/modules/about.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst loadAbout = () => {\r\n    console.log(\"About Loaded\");\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadAbout);\n\n//# sourceURL=webpack://restaurant-page/./src/modules/about.js?");
+
+/***/ }),
+
+/***/ "./src/modules/menu.js":
+/*!*****************************!*\
+  !*** ./src/modules/menu.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst loadMenu = () => {\r\n    console.log(\"Menu Loaded\");\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadMenu);\n\n//# sourceURL=webpack://restaurant-page/./src/modules/menu.js?");
 
 /***/ }),
 
