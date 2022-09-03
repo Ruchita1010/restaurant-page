@@ -1,3 +1,5 @@
+import "../styles/nav.css";
+
 const createNavbar = () => {
     const navElem = document.createElement("nav");
     navElem.innerHTML = `
