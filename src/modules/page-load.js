@@ -1,4 +1,5 @@
 import "../styles/nav.css";
+import loadHome from "./home";
 
 const createNavbar = () => {
     const navElem = document.createElement("nav");
@@ -26,18 +27,18 @@ const createNavbar = () => {
     return navElem;
 }
 
-const createBgContainer = () => {
-    const bgContainer = document.createElement("div");
-    bgContainer.classList.add("bg-container");
-    const navbar = createNavbar();
-    bgContainer.appendChild(navbar);
-    return bgContainer;
+const createMain = () => {
+    const main = document.createElement("main");
+    return main;
 }
 
 const pageLoad = () => {
     const content = document.querySelector(".content");
-    const bgContainer = createBgContainer();
-    content.appendChild(bgContainer);
+    const navbar = createNavbar();
+    const main = createMain();
+    content.appendChild(navbar);
+    content.appendChild(main);
+    loadHome();
 }
 
 export default pageLoad;

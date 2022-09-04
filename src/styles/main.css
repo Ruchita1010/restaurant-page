@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-.bg-container {
-    width: 100vw;
+main {
+    /* width: 100vw; */
     min-height: 100vh;
     background: url("../assets/shop-2.jpg") no-repeat center/cover;
 }
