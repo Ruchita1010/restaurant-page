@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+    font-size: 2.5vmax;
+    background-color: rgb(161, 0, 32);
+    text-align: center;
+}
+
+.social-links {
+    width: 20vmax;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    list-style: none;
+}
+
+.icon {
+    color: aliceblue;
+}
