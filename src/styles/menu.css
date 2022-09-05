@@ -4,7 +4,7 @@
     gap: 1rem;
     justify-content: space-evenly;
     padding: 1rem;
-    background-color: hsla(42, 16%, 12%, 0.786);
+    background-color: var(--bg-transparent);
 }
 
 .menu-item {
@@ -13,14 +13,14 @@
     justify-content: center;
     align-items: center;
     padding: 0.4rem;
-    color: black;
+    color: var(--text-color);
 }
 
 .item-name {
     width: 100%;
     font-size: 2vmax;
-    color: aliceblue;
-    background-color: black;
+    color: var(--text-color);
+    background-color: var(--bg-solid);
     text-align: center;
 }
 

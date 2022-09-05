@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg-solid: hsl(57, 27%, 15%);
+    --bg-transparent: hsla(57, 27%, 15%, 0.76);
+    --text-color: #f7f7f7;
+}
+
 main {
     min-height: 100vh;
     background: url("../assets/shop-2.jpg") no-repeat center/cover;

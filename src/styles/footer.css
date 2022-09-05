@@ -4,9 +4,9 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    color: white;
+    color: var(--text-color);
     font-size: 2.5vmax;
-    background-color: rgb(161, 0, 32);
+    background-color: var(--bg-solid);
     text-align: center;
 }
 
@@ -19,5 +19,5 @@ footer {
 }
 
 .icon {
-    color: aliceblue;
+    color: var(--text-color);
 }
