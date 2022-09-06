@@ -52,6 +52,11 @@ nav {
         position: relative;
     }
 
+    .logo {
+        width: 3.2rem;
+        position: inherit;
+    }
+
     .hamburger {
         position: absolute;
         right: 5%;
