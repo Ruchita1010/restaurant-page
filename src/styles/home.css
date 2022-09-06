@@ -1,0 +1,21 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.intro {
+    margin: 3rem;
+    padding: 2rem;
+    background-color: var(--bg-transparent);
+    box-shadow: 1px 1px 10px var(--bg-solid);
+}
+
+.home>h2 {
+    font-size: 3rem;
+}
