@@ -47,6 +47,10 @@ const createFooter = () => {
             <li class="social-link"><a href="https://twitter.com/_ruchita1010"><i class="icon fa-brands fa-twitter"></i></a></li>
             <li class="social-link"><a href="#"><i class="icon fa-brands fa-instagram"></i></a></li>
         </ul>
+        <div class="attribution">
+            <p><a target="_blank" href="https://icons8.com/icon/5NjV5Ijsh6bz/pet">Pet</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p> |
+            <p>Food images by <a target="_blank" href="https://freepik.com">Freepik</a></p>
+        </div>
     `;
     return footer;
 }

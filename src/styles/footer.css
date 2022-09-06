@@ -22,3 +22,17 @@ footer {
 .icon {
     color: var(--text-color);
 }
+
+.attribution {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.5vmax;
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.attribution>p>a {
+    text-decoration: none;
+    color: hsl(50, 79%, 74%);
+}
