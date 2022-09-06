@@ -39,8 +39,8 @@ const createFooter = () => {
     footer.innerHTML = `
         <p>Made with ♥ by Ruchita</p>
         <ul class="social-links">
-        <li class="social-link"><a href="#"><i class="icon fa-brands fa-github"></i></a></li>
-            <li class="social-link"><a href="#"><i class="icon fa-brands fa-twitter"></i></a></li>
+            <li class="social-link"><a href="https://github.com/Ruchita1010"><i class="icon fa-brands fa-github"></i></a></li>
+            <li class="social-link"><a href="https://twitter.com/_ruchita1010"><i class="icon fa-brands fa-twitter"></i></a></li>
             <li class="social-link"><a href="#"><i class="icon fa-brands fa-instagram"></i></a></li>
         </ul>
     `;
