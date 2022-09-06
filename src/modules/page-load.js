@@ -11,6 +11,7 @@ const createNavbar = () => {
             <div class="line"></div>
         </div>
         <ul class="nav-links">
+            <img src="../src/assets/logo.png" class="logo"/>
             <li class="list-item"><a href="#">Home</a></li>
             <li class="list-item"><a href="#">Menu</a></li>
             <li class="list-item"><a href="#">About</a></li>

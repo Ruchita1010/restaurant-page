@@ -12,19 +12,20 @@ nav {
     margin-left: auto;
 }
 
+.logo {
+    width: 3.2rem;
+    position: absolute;
+    left: 4rem;
+}
+
 .list-item {
     list-style: none;
 }
 
 .list-item a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 2vmax;
     color: var(--text-color);
-}
-
-.main {
-    padding: 2rem;
-    font-size: 1.5rem;
 }
 
 @media only screen and (max-width:768px) {
