@@ -1,10 +1,9 @@
 .menu {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 500px));
-    gap: 1rem;
-    justify-content: space-evenly;
-    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    justify-content: center;
     background-color: var(--bg-transparent);
+    padding: 2rem;
 }
 
 .menu-item {
@@ -14,13 +13,14 @@
     align-items: center;
     padding: 0.4rem;
     color: var(--text-color);
+    margin: 2rem;
+    border-bottom: 1px solid var(--text-color);
 }
 
 .item-name {
     width: 100%;
-    font-size: 2vmax;
+    font-size: 2.2vmax;
     color: var(--text-color);
-    background-color: var(--bg-solid);
     text-align: center;
 }
 
