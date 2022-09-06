@@ -10,15 +10,19 @@ const createNavbar = () => {
             <div class="line"></div>
             <div class="line"></div>
         </div>
-        <ul class="nav-links">
-            <img src="../src/assets/logo.png" class="logo"/>
-            <li class="list-item"><a href="#">Home</a></li>
-            <li class="list-item"><a href="#">Menu</a></li>
-            <li class="list-item"><a href="#">About</a></li>
+        <ul class="navbar">
+            <div class="logo-container">
+                <img src="../src/assets/logo.png" class="logo"/>
+            </div>
+            <div class="nav-links">
+                <li class="list-item"><a href="#">Home</a></li>
+                <li class="list-item"><a href="#">Menu</a></li>
+                <li class="list-item"><a href="#">About</a></li>
+            </div>
         </ul>
     `;
     const hamburger = navElem.firstElementChild;
-    const navLinks = hamburger.nextElementSibling;
+    const navLinks = hamburger.nextElementSibling.children[1];
     const listItem = navLinks.children;
     hamburger.addEventListener("click", () => {
         navLinks.classList.toggle("click");
