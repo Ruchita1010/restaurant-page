@@ -286,7 +286,7 @@ eval("module.exports = __webpack_require__.p + \"98a6f92155a45aa6120b.png\";\n\n
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"6be25719a5716d6b9543.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/drinks.png?");
+eval("module.exports = __webpack_require__.p + \"3b9176619db84b08c1a6.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/drinks.png?");
 
 /***/ }),
 
@@ -316,7 +316,7 @@ eval("module.exports = __webpack_require__.p + \"eb4a1ecac145afdfb6ac.png\";\n\n
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"24d7f97740af4013d521.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/ramen.png?");
+eval("module.exports = __webpack_require__.p + \"f161567c68f1e6cc139a.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/ramen.png?");
 
 /***/ }),
 
@@ -336,7 +336,7 @@ eval("module.exports = __webpack_require__.p + \"5e8da59ed69ee3c2127c.jpg\";\n\n
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"4cb181c9d2783640f7b0.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/sushi.png?");
+eval("module.exports = __webpack_require__.p + \"b56a88e7826460edea5d.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/sushi.png?");
 
 /***/ })
 
