@@ -4,6 +4,7 @@
     justify-content: center;
     background-color: var(--bg-transparent);
     padding: 2rem;
+    box-shadow: 1px 1px 10px var(--bg-solid);
 }
 
 .menu-item {

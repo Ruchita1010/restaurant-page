@@ -8,6 +8,7 @@ footer {
     font-size: 2.5vmax;
     background-color: var(--bg-solid);
     text-align: center;
+    box-shadow: -4px -4px 40px var(--component-shadow);
 }
 
 .social-links {

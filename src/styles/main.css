@@ -7,7 +7,8 @@
 :root {
     --bg-solid: hsl(57, 27%, 15%);
     --bg-transparent: hsla(57, 27%, 15%, 0.76);
-    --text-color: #f7f7f7;
+    --component-shadow: hsl(0, 0%, 2%);
+    --text-color: hsl(0, 0%, 97%);
 }
 
 main {
