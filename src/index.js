@@ -1,5 +1,6 @@
 import "./styles/main.css";
 import pageLoad from "./modules/page-load";
+import loadHome from "./modules/home";
 import loadMenu from "./modules/menu";
 import loadAbout from "./modules/about";
 
@@ -11,7 +12,7 @@ const switchTab = (e) => {
     const currentTab = e.target.innerText;
     switch (currentTab) {
         case "Home":
-            window.location.reload();
+            loadHome();
             break;
         case "Menu":
             loadMenu();
