@@ -11,9 +11,17 @@
     --text-color: hsl(0, 0%, 97%);
 }
 
+@font-face {
+    font-family: 'Macaw';
+    src: url('../assets/MacawFreebie-Light.otf');
+    font-style: normal;
+}
+
 main {
     min-height: 100vh;
     background: url("../assets/shop-2.jpg") no-repeat center/cover;
     background-attachment: fixed;
     padding: 2rem;
+    font-family: 'Macaw', Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
 }

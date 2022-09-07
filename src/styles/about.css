@@ -8,6 +8,7 @@
     color: var(--text-color);
     background-color: var(--bg-transparent);
     box-shadow: 1px 1px 20px var(--bg-solid);
+    letter-spacing: 1px;
 }
 
 .hearts {

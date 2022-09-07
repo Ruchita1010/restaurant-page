@@ -9,6 +9,8 @@ footer {
     background-color: var(--bg-solid);
     text-align: center;
     box-shadow: -4px -4px 40px var(--component-shadow);
+    font-family: 'Macaw', Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
 }
 
 .social-links {
@@ -27,7 +29,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
     font-size: 1.5vmax;
     padding: 2rem 0rem 0rem 0rem;
 }

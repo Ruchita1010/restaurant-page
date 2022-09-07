@@ -4,6 +4,8 @@ nav {
     padding: 0.5rem 0rem;
     background-color: var(--bg-solid);
     box-shadow: 0px 4px 40px var(--component-shadow);
+    font-family: 'Macaw', Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
 }
 
 .navbar {
