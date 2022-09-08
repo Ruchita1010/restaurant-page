@@ -2,9 +2,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
     justify-content: center;
-    background-color: var(--bg-transparent);
+    background-color: hsla(57, 27%, 15%, 0.60);
     padding: 2rem;
     box-shadow: 1px 1px 10px var(--bg-solid);
+    font-weight: bold;
 }
 
 .menu-item {
