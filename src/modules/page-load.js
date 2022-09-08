@@ -1,5 +1,6 @@
 import "../styles/nav.css";
 import "../styles/footer.css";
+import logoImg from "../assets/logo.png";
 import loadHome from "./home";
 
 const createNavbar = () => {
@@ -12,7 +13,7 @@ const createNavbar = () => {
         </div>
         <ul class="navbar">
             <div class="logo-container">
-                <img src="../src/assets/logo.png" class="logo"/>
+                <img src=${logoImg} class="logo"/>
             </div>
             <div class="nav-links">
                 <li class="list-item"><a href="#">Home</a></li>
