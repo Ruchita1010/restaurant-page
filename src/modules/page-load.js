@@ -43,9 +43,9 @@ const createFooter = () => {
     footer.innerHTML = `
         <p>Made with ❤ by Ruchita</p>
         <ul class="social-links">
-            <li class="social-link"><a href="https://github.com/Ruchita1010"><i class="icon fa-brands fa-github"></i></a></li>
-            <li class="social-link"><a href="https://twitter.com/_ruchita1010"><i class="icon fa-brands fa-twitter"></i></a></li>
-            <li class="social-link"><a href="#"><i class="icon fa-brands fa-instagram"></i></a></li>
+            <li class="social-link"><a target="_blank" href="https://github.com/Ruchita1010"><i class="icon fa-brands fa-github"></i></a></li>
+            <li class="social-link"><a target="_blank" href="https://twitter.com/_ruchita1010"><i class="icon fa-brands fa-twitter"></i></a></li>
+            <li class="social-link"><a target="_blank" href="#"><i class="icon fa-brands fa-instagram"></i></a></li>
         </ul>
         <div class="attribution">
             <p><a target="_blank" href="https://icons8.com/icon/5NjV5Ijsh6bz/pet">Pet</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p> |
