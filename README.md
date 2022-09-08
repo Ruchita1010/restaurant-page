@@ -16,7 +16,10 @@ Restaurant Page built using HTML, CSS, Javascript, and Webpack
 - Show available offers on the home page
 
 ## Preview
+### Home Page
 ![image](./src/assets/preview-images/home.png)
+
+### Menu Page
 ![image](./src/assets/preview-images/menu.png)
 
 ## Demo
