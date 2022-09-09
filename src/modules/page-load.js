@@ -3,6 +3,12 @@ import "../styles/footer.css";
 import logoImg from "../assets/logo.png";
 import loadHome from "./home";
 
+const toggleFadeClass = (listItem) => {
+    listItem.forEach(item => {
+        item.classList.toggle("fade");
+    });
+}
+
 const createNavbar = () => {
     const navElem = document.createElement("nav");
     navElem.innerHTML = `
@@ -24,11 +30,25 @@ const createNavbar = () => {
     `;
     const hamburger = navElem.firstElementChild;
     const navLinks = hamburger.nextElementSibling.children[1];
-    const listItem = navLinks.children;
-    hamburger.addEventListener("click", () => {
+    const listItem = Array.from(navLinks.children);
+    hamburger.addEventListener("click", (e) => {
         navLinks.classList.toggle("click");
-        Array.from(listItem).forEach(item => {
-            item.classList.toggle("fade");
+        toggleFadeClass(listItem);
+        listItem.forEach(item => {
+            // Closes hamburger menu if the user clicks on any nav list item
+            item.addEventListener("click", () => {
+                if (navLinks.classList.contains("click")) {
+                    navLinks.classList.toggle("click");
+                    /*
+                    On closing of the navbar when any nav list item is clicked, the fade class remains on the list items while the click class on navLinks is removed making the navLinks along with list items disappear.
+                    Next time when the menu is opened, the navLinks displays as click class is added but the list items does not show up as the fade class now gets removed.
+                    Basically, navLinks and list items appearance and disappearance goes out of sync.
+                    In order to fix that, we remove the fade class on each item by looping over them
+                    so that on next click the fade class is added and the list items shows up along with the navLinks! 
+                    */
+                    toggleFadeClass(listItem);
+                }
+            });
         });
     });
     return navElem;
