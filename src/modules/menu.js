@@ -1,11 +1,11 @@
 import "../styles/menu.css";
 // Import all menu food assets
-import pizzas from "../assets/pizzas.png";
-import pastas from "../assets/pastas.png";
-import ramen from "../assets/ramen.png";
-import sushi from "../assets/sushi.png";
-import desserts from "../assets/desserts.png";
-import drinks from "../assets/drinks.png";
+import pizzas from "../assets/menu-items/pizzas.png";
+import pastas from "../assets/menu-items/pastas.png";
+import ramen from "../assets/menu-items/ramen.png";
+import sushi from "../assets/menu-items/sushi.png";
+import desserts from "../assets/menu-items/desserts.png";
+import drinks from "../assets/menu-items/drinks.png";
 
 const menuItems = [
     {
