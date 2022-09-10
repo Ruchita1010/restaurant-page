@@ -82,6 +82,10 @@ const pageLoad = () => {
     const main = createMain();
     const footer = createFooter();
     content.appendChild(navbar);
+    /* Fix for full page fixed background jump on scrolling because of the url bar on mobile */
+    const bg = document.createElement("div");
+    bg.classList.add("bg");
+    content.appendChild(bg);
     content.appendChild(main);
     content.appendChild(footer);
     loadHome();
