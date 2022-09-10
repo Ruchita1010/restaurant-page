@@ -1,3 +1,7 @@
+.wrapper {
+    min-height: 100vh;
+}
+
 .about {
     width: 100%;
     display: flex;
@@ -13,4 +17,11 @@
 
 .hearts {
     text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+    .about {
+        font-size: 2.6vmax;
+        letter-spacing: 0.8px;
+    }
 }

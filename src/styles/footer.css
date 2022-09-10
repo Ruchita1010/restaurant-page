@@ -5,16 +5,16 @@ footer {
     align-items: center;
     padding: 2rem;
     color: var(--text-color);
-    font-size: 2.5vmax;
+    font-size: 2.2vmax;
     background-color: var(--bg-solid);
     text-align: center;
     box-shadow: -4px -4px 40px var(--component-shadow);
     font-family: 'Macaw', Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 1px;
 }
 
 .social-links {
     width: 20vmax;
+    font-size: 2.2vmax;
     display: flex;
     justify-content: space-around;
     margin-top: 2rem;
@@ -37,4 +37,18 @@ footer {
 .attribution>p>a {
     text-decoration: none;
     color: hsl(50, 79%, 74%);
+}
+
+@media only screen and (max-width:768px) {
+    footer {
+        font-size: 3vmax;
+    }
+
+    .social-links {
+        font-size: 4vmax;
+    }
+
+    .attribution {
+        font-size: 2vmax;
+    }
 }

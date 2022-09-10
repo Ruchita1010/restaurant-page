@@ -6,6 +6,7 @@
     justify-content: center;
     text-align: center;
     color: var(--text-color);
+    letter-spacing: 1px;
 }
 
 .intro {
@@ -19,4 +20,14 @@
 
 .intro>h2 {
     font-size: 3.5vmax;
+}
+
+@media only screen and (max-width:768px) {
+    .intro {
+        font-size: 3vmax;
+    }
+
+    .intro>h2 {
+        font-size: 4vmax;
+    }
 }

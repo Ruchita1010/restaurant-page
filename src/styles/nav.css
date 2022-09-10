@@ -55,8 +55,9 @@ nav {
     }
 
     .nav-links {
-        position: fixed;
+        position: absolute;
         flex-direction: column;
+        justify-content: normal;
         width: 100%;
         height: 100vh;
         background-color: var(--bg-solid);
@@ -88,6 +89,7 @@ nav {
 
     .list-item {
         opacity: 0;
+        margin: 5rem 0rem;
     }
 
     .list-item:nth-child(1) {
@@ -104,5 +106,9 @@ nav {
 
     .list-item.fade {
         opacity: 1;
+    }
+
+    .list-item a {
+        font-size: 3.2vmax;
     }
 }
